@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,300&display=swap');
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    position: relative;
+    margin-top: 20px;
+}
+
+.wrap{
+    width: 400px;
+    height: 595px;
+    margin: 0 auto;
+}
+
+.wrapper{
+    box-shadow: 0 0 15px black;
+    transition: 450ms;
+    cursor: pointer;
+}
+
+.col{
+    box-shadow: 0 0 0px black;
+    transition: 450ms;
+}
+
+.box{
+    position: relative;
+    width: 100%;
+    height: 60%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./img/Screenshot_28.png);
+}
+
+.aside{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 0;
+    top: 90px;
+    background-image: url(./img/8111413_rightlinearrow_right_arrow_direction_arrows_icon.png);
+    background-position: center;
+    transition: 450ms;
+    border-radius: 50px;
+}
+
+.grid{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 0;
+    top: 90px;
+    background-image: url(./img/8111413_rightlinearrow_right_arrow_direction_arrows_icon.png);
+    background-position: center;
+    background-color: rgb(110, 98, 237);
+    border-radius: 50px;
+    transition: 450ms;
+}
+
+.inner{
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    background-image: url(./img/285810_auto_vehicle_sedan_car_automobile_icon.png);
+    bottom: 0;
+    left: 5px;
+    background-size: 70px;
+    background-position: center;
+}
+
+.column{
+    position: relative;
+    width: 100%;
+    height: 40%;
+}
+
+.holder{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 3px;
+    background-image: url(./best.svg);
+    background-position: center;
+    right: 5px;
+}
+
+.thumb{
+    transition: 550ms;
+    width: 180px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    bottom: 5px;
+    right: 600px;
+    border-radius: 15px;
+    opacity: 0.8;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 550;
+    font-size: 14px;
+}
+
+.thumbnail{
+    transition: 450ms;
+    display: none;
+}
+
+.lead{
+    width: 240px;
+    height: 200px;
+    position: absolute;
+    background-color: #CDD6DB;
+    opacity: .8;
+    top: 98px;
+    border-radius: 15px;
+    padding-left: 7px;
+    right: 545px;
+    transition: 950ms;
+}
+
+.slogan{
+    transition: 950ms;
+    display: none;
+}
+
+.excerpt_1{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center; 
+}
+
+.excerpt_2{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.excerpt_3{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.excerpt_4{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.userpic{
+    width: 35px;
+    cursor: pointer;
+}
+
+.pic{
+   color: blue; 
+}
+
+.p_i {
+    cursor: pointer;
+    font-weight: 550;
+}
+
+.h3 {
+    padding-top: 5px;
+    padding-left: 8px;
+    width: 125px;
+}
+
+.h3_post {
+    color: red;
+    transition: 450ms;
+}
+
+
+.h3_post_two {
+    color: black;
+    transition: 450ms;
+}
+
+
+.h2 {
+    padding-top: 30px;
+    padding-left: 8px;
+}
+
+.price {
+    background-color: red;
+    width: 180px;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    border-radius: 10px;
+    margin-left: 8px;
+    margin-top: 5px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.span {
+    font-weight: 550;
+    padding-top: 20px;
+    padding-left: 8px;
+}
+
+.p {
+    font-weight: 550;
+    padding-top: 5px;
+    padding-left: 8px;
+}
+
+.button {
+    font-weight: 550;
+    margin-top: 17px;
+    margin-left: 8px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 38px;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+}
